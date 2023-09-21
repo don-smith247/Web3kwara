@@ -32,23 +32,31 @@ section.fs{
     font-family: "sb";
     display: flex;
     justify-content: space-between;
-    gap: 50px;
+    gap: 10%;
     color: white;
     align-items: center;
+    padding-left: 10%;
     
 }
 .links h2 a{
     text-decoration: none;
     color: white;
     
+    
+    
 }
-.links h2 button{
+.loginbtn{
+    padding-top: 7%;
+    padding-right: 15%;
+}
+.loginbtn button{
    background-color: #EB780D;
    border: none;
-   padding: 40% 90%;
+   padding: 15% 80%;
    color: white;
    font-size: 15px;
    font-family: "sb";
+   
 }
 .ft{
     padding: 10% 0%;
@@ -63,7 +71,7 @@ section.fs{
 .bt h1{
     color: white;
     font-family: "sb";
-    font-size: 60px;
+    font-size: 40px;
     width: 35vw;
    
     
@@ -102,11 +110,11 @@ text-align: left;
 }
 .th{
     font-family: "sb";
-    font-size: 40px;
+    font-size: 30px;
 }
 .mt{
     font-family: "thin2";
-    font-size: 30px;
+    font-size: 20px;
 }
 .pg{
     display: flex;
@@ -199,6 +207,9 @@ font-size: 20px;
 }
 .tp img{
     border-radius: 20px;
+}
+.topimage img{
+    width: 350px;
 }
 .wp{
     padding: 10%;
@@ -335,8 +346,8 @@ section.lastpage{
     
     }
     .links{
-        font-size: 10px;
-        gap: 40px;
+        font-size: 9px;
+        gap: 8px;
         justify-content: center;
         align-items: center;
         padding-right: 10%;
@@ -344,23 +355,22 @@ section.lastpage{
     }
 
 .bt h1{
-    font-size: 50px;
+    font-size: 20px;
     text-align: center;
+}
+.imagge img{
+    width: 350px;
 }
 
 .links h2 a{
+    &:hover{
+        color: #EB780D;
+    }
     text-decoration: none;
     color: white;
     
 }
-.links h2 button{
-   background-color: #EB780D;
-   border: none;
-   padding: 30% 80%;
-   color: white;
-   font-size: 15px;
-   font-family: "sb";
-}
+
 .ft{
     padding: 8% 0%;
   text-align: center;
@@ -374,7 +384,7 @@ section.lastpage{
 .bt h1{
     color: white;
     font-family: "sb";
-    font-size: 70px;
+    font-size: 40px;
     text-align: center;
     width: 100%;
     padding-top: 10%;
@@ -396,7 +406,7 @@ section.lastpage{
     font-family: "sb";
 }
 .btn {
-    padding: 5% 0%;
+    padding: 10% 0%;
 }
 .textimg{
     display: flex;
@@ -425,7 +435,7 @@ section.ts{
        display: flex;
        flex-direction: column;
        justify-content: center;
-       gap: 120px;
+       gap: 60px;
        padding: 6%;
        text-align: center;
        background-color: #d9d7d5;
@@ -438,7 +448,7 @@ section.ts{
    
    .b1{
        background-color: white;
-       padding: 10% 0%;
+       padding: 5% 0%;
        border-radius: 20px;
    display: flex;
    flex-direction: column;
@@ -449,6 +459,7 @@ section.ts{
    }
    .b1 h2{
        font-family: "sb";
+       line-height: 30px;
    }
    .fp img{
     width: 100%;
@@ -467,6 +478,7 @@ section.ts{
        font-family: "thin2";
        width: 70vw;
        padding-top: 1%;
+       line-height: 20px;
    
    }
    .fp img{
@@ -474,7 +486,7 @@ section.ts{
    }
    .b2{
        background-color: white;
-       padding: 10% 0%;
+       padding: 5% 0%;
        border-radius: 20px;
    display: flex;
    flex-direction: column;
@@ -485,11 +497,13 @@ section.ts{
    }
    .b2 h2{
        font-family: "sb";
+       line-height: 30px;
    }
    .b2 h4{
        font-family: "thin2";
        width: 70vw;
        padding-top: 1%;
+       line-height: 20px;
    
    }
    .sp img{
@@ -497,7 +511,7 @@ section.ts{
    }
    .b3{
        background-color: white;
-       padding: 10% 0%;
+       padding: 5% 0%;
        border-radius: 20px;
    display: flex;
    flex-direction: column;
@@ -508,11 +522,13 @@ section.ts{
    }
    .b3 h2{
        font-family: "sb";
+       line-height: 30px;
    }
    .b3 h4{
        font-family: "thin2";
        width: 70vw;
        padding-top: 1%;
+       line-height: 20px;
    
    }
    .tp img{
@@ -527,7 +543,7 @@ section.ts{
     gap: 120px;
 }
 .moo h2{
-    font-size: 50px;
+    font-size: 30px;
     font-family: "sb";
     text-align: center;
 }
@@ -553,6 +569,25 @@ section.ts{
     justify-content: center;
     align-items: center;
     text-align: center;
+    
+}
+.xft img{
+    width: 300px;
+}
+.icon1 img{
+    width: 50px;
+}
+.xst img{
+    width: 300px;
+}
+.icon2 img{
+    width: 50px;
+}
+.xtt img{
+    width: 300px;
+}
+.icon3 img{
+    width: 50px;
 }
 .xst{
     display: flex;
@@ -594,7 +629,7 @@ section.ts{
 
 }
 .text2 h2{
-    font-size: 60px;
+    font-size: 40px;
     font-family: "sb";
 
 }
@@ -603,7 +638,7 @@ section.ts{
 }
 .text2 h4{
     padding-top: 1%;
-    font-size: 30px;
+    font-size: 20px;
     font-family: "thin2";
 
 }
@@ -616,11 +651,12 @@ section.ts{
     border: none;
 }
 .sm{
-    padding-top: 60px;
+    padding-top: 40px;
    
 }
 .footer{
     display: flex;
+    flex-direction: column;
     justify-content: center;
     gap:10%;
     padding: 5%;
@@ -631,19 +667,23 @@ section.ts{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    gap: 50px;
+    gap: 20px;
     
 }
+.fuo h2{
+    text-align: center;
+    padding-top: 10%;
+}
 .iconsection{
-    
+    padding-bottom: 5%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .secondpart{
-    line-height: 50px;
-    font-size: 20px;
-    text-align: right;
+    line-height: 30px;
+    font-size: 15px;
+    text-align: center;
 }
 section.fourthpage{
     background-color: #f5aa64;
