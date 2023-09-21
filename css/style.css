@@ -561,7 +561,7 @@ section.ts{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    gap: 200px;
+    gap: 100px;
 }
 .xft{
     display: flex;
@@ -608,8 +608,8 @@ section.ts{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 200px;
-    padding-bottom: 5%;
+    gap: 100px;
+    padding-bottom: 15%;
 }
 .textimg3{
     display: flex;
