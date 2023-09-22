@@ -394,8 +394,8 @@ section.lastpage{
     font-family: "sb";
     font-size: 42px;
     text-align: center;
-    width: 100%;
-    padding-top: 10%;
+    width: 90vw;
+    padding-top: 7%;
    
     
 }
@@ -404,6 +404,7 @@ section.lastpage{
     font-family: "thin";
     font-size: 20px;
     width: 70vw;
+    padding-top: 10%;
 }
 .btn button{
     color: white;
