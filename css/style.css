@@ -437,6 +437,13 @@ section.ss{
 .text{
     padding-bottom: 10%;
     padding-top: 10%;
+    padding: 5% 6%;
+}
+.topimage img{
+    width: 400px;
+}
+.topimage{
+    padding: 7% 0%;
 }
 section.ts{
     background-color: #ece9e6;
@@ -490,6 +497,7 @@ section.ts{
     display: flex;
     flex-direction: column;
    }
+   
    .b1 h4{
        font-family: "thin2";
        width: 70vw;
